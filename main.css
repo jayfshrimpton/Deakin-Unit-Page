@@ -20,7 +20,7 @@ p {
 
 /* New styles for header and logo */
 header {
-  background-color: #003366; /* Deakin dark blue color */
+  background-color: darkcyan;
   padding: 20px;
   text-align: center;
 }
