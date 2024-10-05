@@ -1,19 +1,52 @@
-
-
+/* Existing styles */
 h1 {
   font-size: 40px;
-  font-family: Arial
+  font-family: Arial;
 }
+
 h2 {
   font-size: 25px;
-  font-family: Arial
+  font-family: Arial;
 }
+
 h3 {
-  font-family: Arial
+  font-family: Arial;
 }
+
 p {
   font-size: 14px;
-  font-family: Arial
+  font-family: Arial;
 }
 
+/* New styles for header and logo */
+header {
+  background-color: #003366; /* Deakin dark blue color */
+  padding: 20px;
+  text-align: center;
+}
 
+header img {
+  max-width: 150px;
+  height: auto; /* Keeps logo proportional */
+}
+
+header h1 {
+  color: #ffffff; /* White text for contrast */
+  margin: 0;
+}
+
+/* Additional styling for overall page */
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #f0f0f0; /* Light grey background */
+  font-family: Arial, sans-serif;
+}
+
+.container {
+  padding: 20px;
+  background-color: #ffffff;
+  margin: 20px auto;
+  max-width: 960px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
